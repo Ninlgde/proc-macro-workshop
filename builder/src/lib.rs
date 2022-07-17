@@ -39,7 +39,6 @@ fn do_expend(ast: &syn::DeriveInput) -> syn::Result<proc_macro2::TokenStream> {
                     #(#generated_init_fields),*
                 }
             }
-
         }
 
         impl #builder_struct_ident {
